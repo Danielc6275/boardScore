@@ -10,6 +10,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #182042;
+    border-radius: 10px;
 }
 
 .blackBox {
@@ -21,7 +22,17 @@ body {
     margin-bottom: 15px;
     color: #F74561;
     font-size: 80px; 
-    padding-left: 40px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+@font-face {
+  font-family: Digital-7;
+  src: url("digital-7.regular.ttf");
+}
+
+.digitalFont {
+  font-family: Digital-7, monospace !important;
 }
 
 .Scoring {
@@ -30,12 +41,12 @@ body {
 
 .teamNames {
     margin-bottom: 1px;
-    font-size: 25px;
+    font-size: 35px;
     color: #F0F0F2;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    padding-left: 12px;
+    padding-left: 6px;
 }
 
 button {
