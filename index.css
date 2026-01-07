@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #182042;
+}
+
+.blackBox {
+    background-color: #0A0000;
+    width: 75px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: #F74561;
+    font-size: 80px; 
+    padding-left: 40px;
+}
+
+.Scoring {
+    padding-bottom: 25px;
+}
+
+.teamNames {
+    margin-bottom: 1px;
+    font-size: 25px;
+    color: #F0F0F2;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding-left: 12px;
+}
+
+button {
+    background-color: #182042;
+    color: #B9C4E6;
+    border: 1px solid #B9C4E6;
+    border-radius: 5px;
+    height: 35px;
+    width: 35px;
+}
